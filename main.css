@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  
+}
+
+.container {
+}
+
+h1, .search, .search-form, .prev_next, .listings {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-links {
+  top: 0px;
+  right: 0px;
+  position: fixed;
+  border: 1px solid lightgrey;
+  width: 100%;
+  height: 50px;
+  background-color: #E8E8E8;
+}
+
+.nav-links-span {
+  height: 50px;
+}
+
+.icon {
+  padding-left: 10px;
+	font-size: 18px;
+}
+
+
+.post-account {
+  display: inline-block;
+	position: absolute;
+	right: 10px;
+  top: 15px;
+}
+
+.link::after {
+	content: "\00a0\00a0";
+}
+
+.link, a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*.search {
+  position: absolute;
+  top: 85px;
+  left: 70px;
+  font-size: 20px;
+}*/
+
+.search {
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.search-box {
+  padding-left: 70px;
+}
+
+input[type=text] {
+  padding-left: 10px;
+  height: 25px;
+  width: 350px;
+  font-size: 15px;
+}
+
+input[type=image] {
+  height: 30px;
+  width: 30px;
+}
+
+.prev_next {
+  padding-left: 70px;
+  padding-top: 30px;
+  width: 400px;
+}
+
+.box {
+  border: 1px solid lightgrey;
+  display: inline-block;
+  text-align: center;
+}
+
+.fifth-box {
+  padding-top: 10px;
+  width: 25%;
+  height: 40px;
+}
+
+.three-fifth-box {
+  padding-top: 10px;
+  width: 45%;
+  height: 40px;
+}
+
+.listings {
+  padding-left: 70px;
+  padding-top: 40px;
+}
+
+.light-text {
+  color: #848482;
+}
